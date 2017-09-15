@@ -1,0 +1,40 @@
+section {
+  padding-top: 40px; }
+
+.viagens-section {
+  margin-top: -20px;
+  padding-bottom: 40px; }
+  .viagens-section .card {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 300px; }
+  .viagens-section #add-card {
+    border: 4px dashed rgba(0, 0, 0, 0.125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .35s ease; }
+    .viagens-section #add-card .plus-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .viagens-section #add-card .plus-wrapper i {
+        color: rgba(0, 0, 0, 0.125);
+        display: block;
+        margin: 0 auto;
+        transition: all .35s ease; }
+      .viagens-section #add-card .plus-wrapper h4 {
+        color: rgba(0, 0, 0, 0.125);
+        text-align: center;
+        transition: all .35s ease; }
+    .viagens-section #add-card:hover {
+      border-color: rgba(0, 0, 0, 0.375);
+      cursor: pointer; }
+      .viagens-section #add-card:hover i {
+        color: rgba(0, 0, 0, 0.375); }
+      .viagens-section #add-card:hover h4 {
+        color: rgba(0, 0, 0, 0.375); }
+
+/*# sourceMappingURL=main.css.map */

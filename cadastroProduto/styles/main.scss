@@ -1,0 +1,58 @@
+
+
+section{
+  padding-top: 40px;
+ 
+  
+}
+
+.viagens-section {
+  margin-top: -20px;
+  padding-bottom: 40px;
+  .card{
+    display: block;
+    margin: 0 auto;
+    margin-top:20px;
+    height: 300px;
+  }
+
+  #add-card{
+    border: 4px dashed rgba(0,0,0,.125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .35s ease;
+    
+    .plus-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      i{
+        color: rgba(0,0,0,.125);
+        display: block;
+        margin:0 auto;
+        transition: all .35s ease;
+        
+      }
+      h4{
+        color: rgba(0,0,0,.125);
+        text-align: center;
+        transition: all .35s ease;
+      }
+    }
+
+    &:hover{
+      border-color: rgba(0,0,0,.375);
+      cursor: pointer;
+      i{
+        color:rgba(0,0,0,.375);
+      }
+      h4{
+        color: rgba(0,0,0,.375);
+      }
+    }
+    
+
+  }
+}
